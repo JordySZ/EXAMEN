@@ -10,7 +10,7 @@ export class Evento {
     nombre: string;
   
     @Column()
-    fechaInicio: string;  // Asegúrate de que esté correctamente definido como string, ya que esperará una fecha
+    fechaInicio: string;  
   
     @Column()
     fechaFin: string;

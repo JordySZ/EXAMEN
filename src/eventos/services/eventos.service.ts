@@ -18,7 +18,7 @@ export class EventosService {
       return await this.eventoRepository.save(evento);
     } catch (error) {
       console.error('Error al crear evento:', error);
-      throw error;  // Lanza el error para que el filtro de excepciones lo capture
+      throw error;  
     }
   }
 

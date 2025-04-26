@@ -14,7 +14,7 @@ import { EventosModule } from './eventos/eventos.module';
       password: '123',
       database: 'gestion_eventos',
       autoLoadEntities: true,
-      synchronize: true, // Cuidado en producción
+      synchronize: true, 
     }),
     EventosModule,
   ],

@@ -5,7 +5,7 @@ export class CreateEventoDto {
   nombre: string;
 
   @IsDateString()
-  fechaInicio: string;  // Asegúrate de que esté correctamente tipado y validado
+  fechaInicio: string; 
 
   @IsDateString()
   fechaFin: string;
